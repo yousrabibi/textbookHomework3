@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Exercise3 {
+import java.util.Scanner;
+
+public class Exercise3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the total amount of seconds: ");
 }

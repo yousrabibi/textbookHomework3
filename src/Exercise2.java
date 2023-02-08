@@ -1,2 +1,16 @@
-package PACKAGE_NAME;public class Exercise2 {
+import java.util.Scanner;
+
+public class Exercise2 {
+//
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the total amount of seconds: ");
+        int seconds = sc.nextInt();
+        int totalSeconds = seconds % 60;
+        int hours = seconds / 60;
+        int minutes = hours % 60;
+        hours = hours / 60;
+        System.out.println(seconds + "seconds have " + hours + "hours" + minutes + "minutes and " + totalSeconds + "seconds.");
+    }
+
 }
