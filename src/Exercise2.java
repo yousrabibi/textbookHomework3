@@ -1,3 +1,11 @@
+/**
+ * @class: Exercise3
+ * @author: yousra bibi
+ * @course: ITEC 2140 -05, 2023
+ * @version: 1.0
+ * @date: 02/07/2023
+ * @description: this program will calculate how many hours, minutes and seconds are totalSeconds
+ */
 import java.util.Scanner;
 
 public class Exercise2 {
